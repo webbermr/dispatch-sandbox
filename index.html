@@ -7,5 +7,11 @@
 </head>
 <body>
   <h1>Hello Charlie and Baxter</h1>
+  <p id="date-time"></p>
+
+  <script>
+    const dateTime = document.getElementById('date-time');
+    dateTime.textContent = new Date().toLocaleString();
+  </script>
 </body>
 </html>
